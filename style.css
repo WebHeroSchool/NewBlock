@@ -1,0 +1,34 @@
+.hedder__logo {
+  font-family: Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hedder__nav {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.section__title {
+  font-family: Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+}
+
+.section__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.section__button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
