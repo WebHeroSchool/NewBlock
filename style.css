@@ -1,32 +1,32 @@
-.hedder__logo {
-  font-family: 'PT Serif';
+.logo {
+  font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
 }
 
-.hedder__nav {
+.menu {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
 }
 
-.section__title {
-  font-family: 'PT Serif';
+.main__title {
+  font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 66px;
 }
 
-.section__text {
+.main__text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
 }
 
-.section__button {
+.main__button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
