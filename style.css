@@ -1,11 +1,11 @@
-.hedder__logo {
+.header__logo {
   font-family: 'PT Serif', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
 }
 
-.hedder__nav {
+.header__menu {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
