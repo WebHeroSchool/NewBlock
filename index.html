@@ -7,25 +7,29 @@
     <title> Структура сайта HTML </title>
   </head>
   <body>
-    <header class=header>
-      <div class="logo">app.creation</div>
-      <nav class="menu">
-        <a class="menu__link" href="#">start</a>
-        <a class="menu__link" href="#">services</a>
-        <a class="menu__link" href="#">about</a>
-        <a class="menu__link" href="#">blog</a>
-        <a class="menu__link" href="#">contact us</a>
-      </nav>
-    </header>
-    <section class="section">
+    <div class="wrapper">
+      <header class="header">
+        <div class="logo">app.creation</div>
+        <nav class="menu">
+          <a class="menu__link" href="#">start</a>
+          <a class="menu__link" href="#">services</a>
+          <a class="menu__link" href="#">about</a>
+          <a class="menu__link" href="#">blog</a>
+          <a class="menu__link" href="#">contact us</a>
+        </nav>
+      </header>
+      <section class="section">
         <main class="main">
-          <h1 class="main__title">Building an App Without Design Expertise?</h1>
-          <p class="main__text">I help tech startups design better digital products without hiring a full-time designer</p>
-          <button class="main__button">Schedule free consultation</button>
-        <div class="main-image">
-          <img class="main-image__img1" src="Frame.jpg" alt="Картинка как картинка">
-        </div>
-        </main>
-     </section>
+          <div class=main-content>
+            <h1 class="main-content__title">Building an App Without Design Expertise?</h1>
+            <p class="main-content__text">I help tech startups design better digital products without hiring a full-time designer</p>
+            <button class="main-content__button">Schedule free consultation</button>
+          </div>
+          <div class="main-image">
+            <img class="main-image__img1" src="Frame.jpg" alt="Картинка как картинка">
+          </div>
+          </main>
+       </section>
+     </div>
   </body>
 </html>
