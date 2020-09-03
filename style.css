@@ -18,8 +18,32 @@ body {
 
 .logo {
   padding: 40px 0;
-  width: 190px;
-  font-family: 'PT Serif', serif;
+  padding-left: 44px;
+  position: relative;
+  font: bold 24px/32px 'PT Serif', arial, helvetica, sans-serif;
+}
+
+.logo__circle {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  opacity: 0.7;
 }
 
 .menu {
@@ -57,7 +81,7 @@ body {
 .main-content__title {
   margin: 0;
   padding-bottom: 40px;
-  font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .main-content__text {
