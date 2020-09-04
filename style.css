@@ -49,15 +49,32 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  font-family: "Roboto", sans-serif;
 }
 
 .menu__link {
-  padding: 0 13px;
+  margin-right: 26px;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  position: relative;
 }
 
 .menu__link:last-child {
-  justify-content: space-between;
+  margin-right: 0;
+}
+
+.menu__link:hover {
+  opacity: 0.5;
+}
+
+.menu__link:hover::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background: #0056EC;
+  left: 0;
 }
 
 .main {
