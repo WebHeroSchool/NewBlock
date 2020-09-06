@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-  width: 80%;
+  width: 67%;
   margin: auto;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .menu__link {
   margin-right: 26px;
-  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   position: relative;
@@ -79,7 +79,7 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 57% 100px 0;
   background: top right no-repeat url(img/frame.svg);
 }
 
