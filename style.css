@@ -13,7 +13,7 @@ body {
   margin-bottom: 100px;
 }
 
-.logo, .menu {
+.logo, .menu, .burger {
   display: inline-block;
 }
 
@@ -45,6 +45,25 @@ body {
 .logo__circle_color_dark-blue {
   background: #0056EC;
   opacity: .7;
+}
+
+.burger {
+  visibility: hidden;
+  width: 30px;
+  padding-top: 36px;
+}
+
+.burger__button {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  transition: opacity .5s;
+}
+
+.burger__button:hover {
+  opacity: .5;
 }
 
 .menu {
@@ -111,3 +130,101 @@ body {
 .main__button:hover {
   opacity: .5;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 85%;
+  }
+
+  .header {
+    margin-bottom: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    visibility: hidden;
+    padding: 53px 0 0 0;
+  }
+
+  .logo__circle_color_blue, .logo__circle_color_dark-blue {
+    visibility: visible;
+  }
+
+  .burger {
+    visibility: visible;
+  }
+
+  .main {
+    padding: 75% 0;
+    text-align: center;
+    background-size: 90%;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin: 0 0 32px 0;
+    font: bold 30px/40px 'PT Serif', arial, helvetica, sans-serif;
+    padding-top: 30px;
+  }
+
+  .main__text {
+    margin: 0 0 25px 0;
+    padding: 0 35px 0 35px;
+    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    margin-bottom: 43px;
+  }
+}
+
+@media (min-width: 769px) and  (max-width: 1290px) {
+  .wrapper {
+    width: 91%;
+  }
+
+  .main {
+    padding: 0 66% 220px 0;
+    background-size: 57%;
+  }
+}
+
+@media (min-width: 1920px) {
+   .wrapper {
+     width: 80%;
+   }
+
+   .header {
+     margin-bottom: 100px;
+   }
+
+   .menu__link {
+     margin-right: 30px;
+     font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+   .main {
+     padding: 0 66% 150px 0;
+     background-size: 50%;
+     background-position: right center;
+   }
+
+   .main__title {
+     font: bold 66px/87px 'PT Serif', arial, helvetica, sans-serif;
+     padding-top: 100px;
+   }
+
+   .main__text {
+     font: 500 22px/26px 'Roboto', arial, helvetica, sans-serif;
+     padding-right: 50px;
+   }
+
+   .main__button {
+     font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+     padding: 20px 25px;
+   }
+ }
