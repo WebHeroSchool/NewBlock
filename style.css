@@ -202,7 +202,6 @@ body {
     display: flex;
     flex-direction: column;
     position: fixed;
-    visibility: hidden;
     top: 0;
     left: -100%;
     width: 100%;
@@ -212,6 +211,7 @@ body {
     text-align: center;
     background: #fff;
     max-width: 100%;
+    transition: left .5s ease-out;
   }
 
   .menu__link {
@@ -275,6 +275,7 @@ body {
    }
 
    .menu__link {
+     padding-top: 25px;
      margin-right: 30px;
      font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
    }
