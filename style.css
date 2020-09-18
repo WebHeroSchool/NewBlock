@@ -3,14 +3,14 @@ body {
 }
 
 .wrapper {
-  width: 67%;
+  width: 68%;
   margin: auto;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 }
 
 .logo, .menu, .burger {
@@ -50,10 +50,11 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 .menu__link {
-  margin-right: 26px;
+  margin-right: 27px;
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -79,13 +80,14 @@ body {
 }
 
 .main {
-  padding: 0 57% 100px 0;
+  padding: 0 55% 100px 0;
   background: top right no-repeat url(img/Frame.svg);
 }
 
 .main__title {
   margin: 0 0 40px 0;
   font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
+  padding-top: 15px;
 }
 
 .main__title-text_light {
@@ -95,6 +97,7 @@ body {
 .main__text {
   margin: 0 0 40px 0;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  padding-right: 50px;
 }
 
 .main__button {
@@ -102,7 +105,7 @@ body {
   color: #fff;
   background: #0056EC;
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
@@ -118,11 +121,11 @@ body {
 
 @media (max-width: 768px) {
   .wrapper {
-    width: 85%;
+    width: 86%;
   }
 
   .header {
-    margin-bottom: 0;
+    margin-bottom: 8px;;
   }
 
   .menu {
@@ -131,7 +134,7 @@ body {
 
   .logo {
     visibility: hidden;
-    padding: 53px 0 0 0;
+    padding: 46px 0 0 0;
   }
 
   .logo__circle_color_blue, .logo__circle_color_dark-blue {
@@ -139,16 +142,16 @@ body {
   }
 
   .main {
-    padding: 75% 0;
+    padding: 78% 0;
     text-align: center;
-    background-size: 90%;
+    background-size: 88%;
     background-position: top center;
   }
 
   .main__title {
     margin: 0 0 32px 0;
     font: bold 30px/40px 'PT Serif', arial, helvetica, sans-serif;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   .main__text {
@@ -159,7 +162,8 @@ body {
 
   .main__button {
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    margin-bottom: 43px;
+    margin-bottom: 20px;
+    padding: 14px 20px;
   }
 
   #menu__toggle {
@@ -170,7 +174,7 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 30px;
+    top: 28px;
     right:: 19px;
     width: 25px;
     height: 26px;
@@ -202,7 +206,6 @@ body {
     display: flex;
     flex-direction: column;
     position: fixed;
-    visibility: hidden;
     top: 0;
     left: -100%;
     width: 100%;
@@ -212,6 +215,7 @@ body {
     text-align: center;
     background: #fff;
     max-width: 100%;
+    transition: left .5s ease-out;
   }
 
   .menu__link {
@@ -274,6 +278,11 @@ body {
      margin-bottom: 100px;
    }
 
+   .menu {
+     padding-top: 25px;
+     padding-left: 10px;
+   }
+
    .menu__link {
      margin-right: 30px;
      font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
@@ -287,7 +296,7 @@ body {
 
    .main__title {
      font: bold 66px/87px 'PT Serif', arial, helvetica, sans-serif;
-     padding-top: 100px;
+     padding-top: 102px;
    }
 
    .main__text {
@@ -297,6 +306,6 @@ body {
 
    .main__button {
      font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
-     padding: 20px 25px;
+     padding: 20px 30px;
    }
  }
